@@ -38,10 +38,10 @@ const Navbar = ({
   };
 
   const categories = [
-    { name: "Side Hustles", path: "/category/side-hustles" },
-    { name: "Experiences", path: "/category/experiences" },
-    { name: "Rentals", path: "/category/rentals" },
-    { name: "Digital Services", path: "/category/digital-services" },
+    { name: "Side Hustles", path: "/categories/side-hustles" },
+    { name: "Experiences", path: "/categories/experiences" },
+    { name: "Rentals", path: "/categories/rentals" },
+    { name: "Digital Services", path: "/categories/digital-services" },
   ];
 
   return (
