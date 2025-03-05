@@ -18,7 +18,7 @@ interface HeroBannerProps {
 }
 
 const HeroBanner = ({
-  title = "Trade Hive: Student Marketplace",
+  title = "Trade Hive: Swap, Sell & Share",
   subtitle = "Discover, buy, and sell student services, products, and experiences all in one place.",
   backgroundImage = "https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=1200&q=80",
   primaryCta = {

@@ -125,7 +125,7 @@ const HomePage = ({
                     className="h-12 w-12 rounded-full"
                   />
                   <div>
-                    <h4 className="font-semibold">Emma L.</h4>
+                    <h4 className="font-semibold">Samanthi Perera</h4>
                     <p className="text-sm text-gray-500">Computer Science</p>
                   </div>
                 </div>
@@ -145,7 +145,7 @@ const HomePage = ({
                     className="h-12 w-12 rounded-full"
                   />
                   <div>
-                    <h4 className="font-semibold">Marcus T.</h4>
+                    <h4 className="font-semibold">Mahinda Rajapaksha</h4>
                     <p className="text-sm text-gray-500">
                       Business Administration
                     </p>
@@ -167,9 +167,9 @@ const HomePage = ({
                     className="h-12 w-12 rounded-full"
                   />
                   <div>
-                    <h4 className="font-semibold">Sophia K.</h4>
+                    <h4 className="font-semibold">Nethmi Dileka</h4>
                     <p className="text-sm text-gray-500">
-                      Environmental Science
+                      Bussiness Analytics
                     </p>
                   </div>
                 </div>
