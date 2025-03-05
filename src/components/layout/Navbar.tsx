@@ -49,7 +49,7 @@ const Navbar = ({
       <div className="mx-auto flex h-20 max-w-7xl items-center justify-between px-4 md:px-6">
         {/* Logo */}
         <Link to="/" className="flex items-center gap-2">
-          <img src="/tadehivelogo.jpg" alt="Trade Hive Logo" className="h-14 w-14" />
+          <img src="/logo.svg" alt="Trade Hive Logo" className="h-14 w-14" />
           <span className="hidden text-xl font-bold md:block">TRADE HIVE</span>
         </Link>
 
