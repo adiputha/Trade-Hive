@@ -1,5 +1,5 @@
 import React from "react";
-import { useParams } from "react-router-dom";
+import { useParams, useNavigate } from "react-router-dom";
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
 import { Button } from "@/components/ui/button";
@@ -429,6 +429,7 @@ export const categoryData: Record<string, CategoryData> = {
 
 const CategoryPage = () => {
   const { categoryId } = useParams<{ categoryId: string }>();
+  const navigate = useNavigate();
   const [activeSubcategory, setActiveSubcategory] =
     React.useState<string>("all");
   const [priceRange, setPriceRange] = React.useState<[number, number]>([
@@ -479,7 +480,14 @@ const CategoryPage = () => {
                 </div>
               </div>
               <div className="flex-shrink-0">
-                <Button className="gap-2">List in {category.title}</Button>
+                <Button
+                  className="gap-2"
+                  onClick={() =>
+                    navigate(`/create-listing?category=${category.id}`)
+                  }
+                >
+                  List in {category.title}
+                </Button>
               </div>
             </div>
           </div>
