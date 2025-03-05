@@ -6,6 +6,7 @@ import SubcategoryPage from "./components/categories/SubcategoryPage";
 import LoginPage from "./components/auth/LoginPage";
 import RegisterPage from "./components/auth/RegisterPage";
 import VerificationPage from "./components/auth/VerificationPage";
+import CreateListingForm from "./components/listings/CreateListingForm";
 import routes from "tempo-routes";
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
           <Route path="/login" element={<LoginPage />} />
           <Route path="/register" element={<RegisterPage />} />
           <Route path="/verification-sent" element={<VerificationPage />} />
+          <Route path="/create-listing" element={<CreateListingForm />} />
         </Routes>
         {import.meta.env.VITE_TEMPO === "true" && useRoutes(routes)}
       </>
