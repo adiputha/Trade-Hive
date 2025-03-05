@@ -177,7 +177,7 @@ const LoginPage = ({ onSuccess }: LoginPageProps) => {
               <div className="mt-6 grid grid-cols-2 gap-3">
                 <Button variant="outline" className="w-full">
                   <Github className="mr-2 h-4 w-4" />
-                  GitHub
+                  Google
                 </Button>
                 <Button variant="outline" className="w-full">
                   <Facebook className="mr-2 h-4 w-4" />
