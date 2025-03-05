@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
+  <g transform="translate(50, 50)">
+    <!-- Beehive layers -->
+    <path d="M100,0 L150,30 L100,60 L50,30 Z" fill="#FFC043"/>
+    <path d="M100,20 L150,50 L100,80 L50,50 Z" fill="#FFC043"/>
+    <path d="M100,40 L150,70 L100,100 L50,70 Z" fill="#FFC043"/>
+    
+    <!-- Bee body -->
+    <circle cx="100" cy="80" r="15" fill="#FFC043"/>
+    
+    <!-- Bee wings -->
+    <path d="M85,75 C60,60 60,40 85,55 Z" fill="#F5F5F5"/>
+    <path d="M115,75 C140,60 140,40 115,55 Z" fill="#F5F5F5"/>
+    
+    <!-- Bee stripes -->
+    <path d="M100,95 L100,105" stroke="#333" stroke-width="2"/>
+  </g>
+</svg>
