@@ -3,6 +3,9 @@ import { useRoutes, Routes, Route } from "react-router-dom";
 import Home from "./components/home";
 import CategoryPage from "./components/categories/CategoryPage";
 import SubcategoryPage from "./components/categories/SubcategoryPage";
+import LoginPage from "./components/auth/LoginPage";
+import RegisterPage from "./components/auth/RegisterPage";
+import VerificationPage from "./components/auth/VerificationPage";
 import routes from "tempo-routes";
 
 function App() {
@@ -16,6 +19,9 @@ function App() {
             path="/categories/:categoryId/:subcategoryId"
             element={<SubcategoryPage />}
           />
+          <Route path="/login" element={<LoginPage />} />
+          <Route path="/register" element={<RegisterPage />} />
+          <Route path="/verification-sent" element={<VerificationPage />} />
         </Routes>
         {import.meta.env.VITE_TEMPO === "true" && useRoutes(routes)}
       </>
