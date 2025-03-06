@@ -625,11 +625,6 @@ const CategoryPage = () => {
                       <span className="ml-1 text-xs text-gray-500">
                         ({subcategory.count})
                       </span>
-                      {subcategory.description && (
-                        <p className="text-xs text-gray-500 mt-1 pr-2">
-                          {subcategory.description}
-                        </p>
-                      )}
                     </button>
                   ))}
                 </div>
@@ -639,16 +634,27 @@ const CategoryPage = () => {
             {/* Listings Grid */}
             <div className="flex-1">
               <div className="mb-6 flex items-center justify-between">
-                <h2 className="text-xl font-semibold">
-                  {activeSubcategory === "all"
-                    ? `All ${category.title}`
-                    : category.subcategories.find(
-                        (s) => s.id === activeSubcategory,
-                      )?.name}
-                  <span className="ml-2 text-sm font-normal text-gray-500">
-                    {filteredListings.length} listings
-                  </span>
-                </h2>
+                <div>
+                  <h2 className="text-xl font-semibold">
+                    {activeSubcategory === "all"
+                      ? `All ${category.title}`
+                      : category.subcategories.find(
+                          (s) => s.id === activeSubcategory,
+                        )?.name}
+                    <span className="ml-2 text-sm font-normal text-gray-500">
+                      {filteredListings.length} listings
+                    </span>
+                  </h2>
+                  {activeSubcategory !== "all" && (
+                    <p className="text-sm text-gray-600 mt-1">
+                      {
+                        category.subcategories.find(
+                          (s) => s.id === activeSubcategory,
+                        )?.description
+                      }
+                    </p>
+                  )}
+                </div>
 
                 <div>
                   <Tabs defaultValue="grid">
