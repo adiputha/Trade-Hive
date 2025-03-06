@@ -35,7 +35,7 @@ const CategoryGrid = ({
       id: "experiences",
       title: "Experiences",
       description:
-        "Make memories on campus! Join exciting events, workshops, and challenges.",
+        "Bringing Students Together Through Events! Join to participate and discover exciting campus events.",
       icon: <Calendar className="h-8 w-8" />,
       color: "bg-purple-100 text-purple-700",
       href: "/categories/experiences",

@@ -189,15 +189,45 @@ export const categoryData: Record<string, CategoryData> = {
     id: "experiences",
     title: "Experiences",
     description:
-      "Join unique events and activities hosted by students to explore campus life and beyond.",
+      "Bringing Students Together Through Events! Join to participate and discover exciting campus events.",
     icon: <Calendar className="h-10 w-10" />,
     color: "bg-purple-100 text-purple-700",
     subcategories: [
-      { id: "campus-tours", name: "Campus Tours", count: 8 },
-      { id: "food-experiences", name: "Food Experiences", count: 12 },
-      { id: "outdoor-adventures", name: "Outdoor Adventures", count: 15 },
-      { id: "cultural-events", name: "Cultural Events", count: 10 },
-      { id: "workshops", name: "Workshops & Classes", count: 14 },
+      {
+        id: "csr-projects",
+        name: "CSR Projects",
+        count: 10,
+        description:
+          "Volunteer drives, community service, environmental initiatives, and student-led social impact projects.",
+      },
+      {
+        id: "entertainment",
+        name: "Entertainment",
+        count: 18,
+        description:
+          "Campus concerts, open mic nights, comedy shows, cultural fests, and gaming tournaments.",
+      },
+      {
+        id: "seminars-workshops",
+        name: "Seminars & Workshops",
+        count: 14,
+        description:
+          "Skill-building sessions, industry talks, startup showcases, and personal development workshops.",
+      },
+      {
+        id: "campus-challenges",
+        name: "Campus Challenges",
+        count: 12,
+        description:
+          "Hackathons, business pitch competitions, sports tournaments, and quiz battles.",
+      },
+      {
+        id: "outdoor-adventures",
+        name: "Outdoor Adventures",
+        count: 15,
+        description:
+          "Embark on unforgettable student-led adventures! Join thrilling trips and hikes with your friends—click to explore upcoming adventures!",
+      },
     ],
     listings: [
       {
