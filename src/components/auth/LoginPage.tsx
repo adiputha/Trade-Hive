@@ -37,8 +37,8 @@ const LoginPage = ({ onSuccess }: LoginPageProps) => {
       // Simulate login API call
       await new Promise((resolve) => setTimeout(resolve, 1000));
 
-      // For demo purposes, accept any email with @edu domain and password longer than 5 chars
-      if (email.includes("@edu") && password.length > 5) {
+      // For demo purposes, accept any email with @lk domain and password longer than 5 chars
+      if (email.includes("@lk") && password.length > 5) {
         if (onSuccess) {
           onSuccess();
         } else {
@@ -108,7 +108,7 @@ const LoginPage = ({ onSuccess }: LoginPageProps) => {
                   <Input
                     id="email"
                     type="email"
-                    placeholder="you@university.edu"
+                    placeholder="you@university.lk"
                     className="pl-10"
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}

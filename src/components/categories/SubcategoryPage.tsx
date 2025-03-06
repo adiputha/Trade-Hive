@@ -127,7 +127,8 @@ const SubcategoryPage = () => {
 
               <div className="flex items-center gap-2">
                 <span className="text-sm text-gray-500">
-                  Price Range: ${priceRange[0]} - ${priceRange[1]}
+                  Price Range: Rs. {priceRange[0] * 100} - Rs.{" "}
+                  {priceRange[1] * 100}
                 </span>
                 <div className="w-48">
                   <Slider

@@ -112,15 +112,15 @@ const Footer = ({ className }: FooterProps = {}) => {
             <ul className="space-y-3 text-sm text-gray-400">
               <li className="flex items-center gap-2">
                 <Mail size={16} />
-                <span>support@tradehive.edu</span>
+                <span>support@tradehive.lk</span>
               </li>
               <li className="flex items-center gap-2">
                 <Phone size={16} />
-                <span>(123) 456-7890</span>
+                <span>+94 11 234 5678</span>
               </li>
               <li className="flex items-center gap-2">
                 <MapPin size={16} />
-                <span>University Campus, Building 4</span>
+                <span>Colombo 07, Sri Lanka</span>
               </li>
             </ul>
           </div>

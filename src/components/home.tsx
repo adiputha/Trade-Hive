@@ -95,7 +95,7 @@ const HomePage = ({
             <div className="grid grid-cols-1 gap-8 md:grid-cols-3">
               <div className="rounded-lg bg-white p-6 text-center shadow-sm">
                 <p className="text-4xl font-bold text-primary">500+</p>
-                <p className="mt-2 text-gray-600">Active Student Sellers</p>
+                <p className="mt-2 text-gray-600">Active Sri Lankan Students</p>
               </div>
               <div className="rounded-lg bg-white p-6 text-center shadow-sm">
                 <p className="text-4xl font-bold text-primary">1,200+</p>
@@ -103,7 +103,7 @@ const HomePage = ({
               </div>
               <div className="rounded-lg bg-white p-6 text-center shadow-sm">
                 <p className="text-4xl font-bold text-primary">15+</p>
-                <p className="mt-2 text-gray-600">Campus Communities</p>
+                <p className="mt-2 text-gray-600">Sri Lankan Universities</p>
               </div>
             </div>
           </div>
@@ -126,7 +126,9 @@ const HomePage = ({
                   />
                   <div>
                     <h4 className="font-semibold">Samanthi Perera</h4>
-                    <p className="text-sm text-gray-500">Computer Science</p>
+                    <p className="text-sm text-gray-500">
+                      University of Colombo
+                    </p>
                   </div>
                 </div>
                 <p className="text-gray-600">
@@ -147,7 +149,7 @@ const HomePage = ({
                   <div>
                     <h4 className="font-semibold">Mahinda Rajapaksha</h4>
                     <p className="text-sm text-gray-500">
-                      Business Administration
+                      University of Peradeniya
                     </p>
                   </div>
                 </div>
@@ -169,7 +171,7 @@ const HomePage = ({
                   <div>
                     <h4 className="font-semibold">Wasanthi Fernando</h4>
                     <p className="text-sm text-gray-500">
-                      Bussiness Analytics
+                      University of Moratuwa
                     </p>
                   </div>
                 </div>

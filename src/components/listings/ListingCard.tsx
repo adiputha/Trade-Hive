@@ -94,8 +94,8 @@ const ListingCard = ({
       <CardFooter className="border-t p-4">
         <div className="flex w-full items-center justify-between">
           <div className="font-medium">
-            <span className="text-sm">$</span>
-            <span className="text-lg">{price}</span>
+            <span className="text-sm">Rs.</span>
+            <span className="text-lg">{price * 100}</span>
           </div>
           <button
             className="rounded-md bg-primary px-3 py-1.5 text-xs font-medium text-primary-foreground transition-colors hover:bg-primary/90"

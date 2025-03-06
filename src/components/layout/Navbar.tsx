@@ -188,7 +188,7 @@ const Navbar = ({
                         {username}
                       </p>
                       <p className="text-xs leading-none text-muted-foreground">
-                        student@university.edu
+                        student@university.lk
                       </p>
                     </div>
                   </DropdownMenuLabel>

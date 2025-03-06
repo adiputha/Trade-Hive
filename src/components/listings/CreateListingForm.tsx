@@ -21,14 +21,7 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
-import {
-  AlertCircle,
-  Upload,
-  DollarSign,
-  Clock,
-  Tag,
-  Info,
-} from "lucide-react";
+import { AlertCircle, Upload, Clock, Tag, Info } from "lucide-react";
 import { categoryData } from "@/components/categories/CategoryPage";
 
 interface CreateListingFormProps {
@@ -228,7 +221,9 @@ const CreateListingForm = ({
             <div className="space-y-2">
               <Label htmlFor="deposit">Security Deposit (if any)</Label>
               <div className="relative">
-                <DollarSign className="absolute left-3 top-3 h-4 w-4 text-gray-400" />
+                <span className="absolute left-3 top-3 text-xs text-gray-400">
+                  Rs.
+                </span>
                 <Input
                   id="deposit"
                   type="number"
@@ -391,7 +386,9 @@ const CreateListingForm = ({
                   Price <span className="text-destructive">*</span>
                 </Label>
                 <div className="relative">
-                  <DollarSign className="absolute left-3 top-3 h-4 w-4 text-gray-400" />
+                  <span className="absolute left-3 top-3 text-xs text-gray-400">
+                    Rs.
+                  </span>
                   <Input
                     id="price"
                     type="number"
