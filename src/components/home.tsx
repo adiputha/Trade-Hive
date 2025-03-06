@@ -125,7 +125,7 @@ const HomePage = ({
                     className="h-12 w-12 rounded-full"
                   />
                   <div>
-                    <h4 className="font-semibold">Samanthi Perera</h4>
+                    <h4 className="font-semibold">Thisen Thenuga</h4>
                     <p className="text-sm text-gray-500">
                       University of Colombo
                     </p>
@@ -142,14 +142,14 @@ const HomePage = ({
               <div className="rounded-lg border bg-card p-6 shadow-sm">
                 <div className="mb-4 flex items-center gap-4">
                   <img
-                    src="https://api.dicebear.com/7.x/avataaars/svg?seed=Marcus"
+                    src="/MahindaRajapaksa6.jpg"
                     alt="Marcus"
                     className="h-12 w-12 rounded-full"
                   />
                   <div>
-                    <h4 className="font-semibold">Mahinda Rajapaksha</h4>
+                    <h4 className="font-semibold">Mahinda Rajapakse</h4>
                     <p className="text-sm text-gray-500">
-                      University of Peradeniya
+                      SAB Campus - CA Sri Lanka
                     </p>
                   </div>
                 </div>
@@ -169,7 +169,7 @@ const HomePage = ({
                     className="h-12 w-12 rounded-full"
                   />
                   <div>
-                    <h4 className="font-semibold">Wasanthi Fernando</h4>
+                    <h4 className="font-semibold">Tharindu Senarathne</h4>
                     <p className="text-sm text-gray-500">
                       University of Moratuwa
                     </p>
