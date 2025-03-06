@@ -115,7 +115,7 @@ const Navbar = ({
             <Input
               type="search"
               placeholder="Search services..."
-              className="w-full bg-background pl-8 md:w-[300px] lg:w-[400px]"
+              className="w-full bg-background pl-8 md:w-[200px] lg:w-[300px]"
             />
           </div>
         </div>
