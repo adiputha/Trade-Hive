@@ -10,6 +10,7 @@ interface CategoryItem {
   icon: React.ReactNode;
   color: string;
   href: string;
+  image: string;
 }
 
 interface CategoryGridProps {
@@ -22,34 +23,46 @@ const CategoryGrid = ({
     {
       id: "side-hustles",
       title: "Side Hustles",
-      description: "Discover student-run businesses and services",
+      description:
+        "Support student entrepreneurs! Discover unique products and services made by your peers.",
       icon: <Briefcase className="h-8 w-8" />,
       color: "bg-blue-100 text-blue-700",
       href: "/categories/side-hustles",
+      image:
+        "https://images.unsplash.com/photo-1556745753-b2904692b3cd?w=800&q=80",
     },
     {
       id: "experiences",
       title: "Experiences",
-      description: "Join unique events and activities hosted by students",
+      description:
+        "Make memories on campus! Join exciting events, workshops, and challenges.",
       icon: <Calendar className="h-8 w-8" />,
       color: "bg-purple-100 text-purple-700",
       href: "/categories/experiences",
+      image:
+        "https://images.unsplash.com/photo-1523580494863-6f3031224c94?w=800&q=80",
     },
     {
       id: "rentals",
       title: "Rentals",
-      description: "Rent items, spaces, and equipment from fellow students",
+      description:
+        "Why buy when you can rent? Find affordable spaces, gadgets, and gear from fellow students.",
       icon: <Home className="h-8 w-8" />,
       color: "bg-amber-100 text-amber-700",
       href: "/categories/rentals",
+      image:
+        "https://images.unsplash.com/photo-1581088382991-83c7f170de75?w=800&q=80",
     },
     {
       id: "digital-services",
       title: "Digital Services",
-      description: "Find freelance digital services for your projects",
+      description:
+        "Unlock student talent! Get top-notch freelance work for your projects.",
       icon: <Laptop className="h-8 w-8" />,
       color: "bg-emerald-100 text-emerald-700",
       href: "/categories/digital-services",
+      image:
+        "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&q=80",
     },
   ],
   className,
@@ -62,7 +75,6 @@ const CategoryGrid = ({
         <h2 className="text-3xl font-bold tracking-tight mb-2">
           Explore Categories
         </h2>
-    
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -72,6 +84,13 @@ const CategoryGrid = ({
             className="overflow-hidden transition-all duration-200 hover:shadow-lg cursor-pointer h-full"
             onClick={() => (window.location.href = category.href)}
           >
+            <div className="h-40 w-full overflow-hidden">
+              <img
+                src={category.image}
+                alt={category.title}
+                className="h-full w-full object-cover transition-transform duration-200 hover:scale-105"
+              />
+            </div>
             <CardContent className="p-6 flex flex-col h-full">
               <div
                 className={cn("p-3 rounded-full w-fit mb-4", category.color)}
