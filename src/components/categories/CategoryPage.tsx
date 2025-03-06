@@ -21,6 +21,7 @@ interface SubcategoryItem {
   id: string;
   name: string;
   count: number;
+  description?: string;
 }
 
 interface CategoryData {
@@ -49,15 +50,59 @@ export const categoryData: Record<string, CategoryData> = {
     id: "side-hustles",
     title: "Side Hustles",
     description:
-      "Discover student-run businesses and services to help you with everyday tasks and needs.",
+      "Support student entrepreneurs and discover unique services just for you!",
     icon: <Briefcase className="h-10 w-10" />,
     color: "bg-blue-100 text-blue-700",
     subcategories: [
-      { id: "tutoring", name: "Tutoring", count: 24 },
-      { id: "delivery", name: "Delivery Services", count: 18 },
-      { id: "personal-assistant", name: "Personal Assistant", count: 12 },
-      { id: "event-planning", name: "Event Planning", count: 9 },
-      { id: "fitness-coaching", name: "Fitness Coaching", count: 15 },
+      {
+        id: "tutoring",
+        name: "Tutoring",
+        count: 24,
+        description:
+          "Academic tutoring, music coaching, and skill-based mentoring.",
+      },
+      {
+        id: "language-communication",
+        name: "Language & Communication",
+        count: 18,
+        description:
+          "Language tutoring, public speaking coaching, debate training, and accent improvement.",
+      },
+      {
+        id: "photography-videography",
+        name: "Photography & Videography",
+        count: 15,
+        description:
+          "Event photography, portrait shoots, and creative videography.",
+      },
+      {
+        id: "crafts-accessories",
+        name: "Crafts & Accessories",
+        count: 22,
+        description:
+          "Handmade jewelry, custom keychains, knitted goods, and DIY crafts and many more.",
+      },
+      {
+        id: "homemade-eats",
+        name: "Homemade Eats & Treats",
+        count: 19,
+        description:
+          "Freshly baked goods, home-cooked meals, and unique snacks made by students.",
+      },
+      {
+        id: "fitness-coaching",
+        name: "Fitness Coaching",
+        count: 15,
+        description:
+          "Personalized workout plans, yoga sessions, sports training, and wellness coaching.",
+      },
+      {
+        id: "event-planning",
+        name: "Event Planning",
+        count: 9,
+        description:
+          "Help with organizing campus events, parties, and gatherings.",
+      },
     ],
     listings: [
       {
@@ -580,6 +625,11 @@ const CategoryPage = () => {
                       <span className="ml-1 text-xs text-gray-500">
                         ({subcategory.count})
                       </span>
+                      {subcategory.description && (
+                        <p className="text-xs text-gray-500 mt-1 pr-2">
+                          {subcategory.description}
+                        </p>
+                      )}
                     </button>
                   ))}
                 </div>
