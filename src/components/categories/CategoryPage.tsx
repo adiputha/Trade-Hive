@@ -318,11 +318,41 @@ export const categoryData: Record<string, CategoryData> = {
     icon: <Home className="h-10 w-10" />,
     color: "bg-amber-100 text-amber-700",
     subcategories: [
-      { id: "electronics", name: "Electronics", count: 22 },
-      { id: "textbooks", name: "Textbooks", count: 35 },
-      { id: "spaces", name: "Spaces", count: 8 },
-      { id: "vehicles", name: "Vehicles", count: 12 },
-      { id: "equipment", name: "Equipment", count: 18 },
+      {
+        id: "room-rentals",
+        name: "Room Rentals & Accommodations",
+        count: 18,
+        description:
+          "Short-term and long-term room rentals, hostel swaps, and shared living spaces.",
+      },
+      {
+        id: "bike-rentals",
+        name: "Bike Rentals",
+        count: 22,
+        description:
+          "Bicycles, scooters, skateboards, and e-bikes for easy campus commuting.",
+      },
+      {
+        id: "music-instrument-rentals",
+        name: "Music Instrument Rentals",
+        count: 15,
+        description:
+          "Guitars, keyboards, drums, violins, and DJ equipment for musicians and performers.",
+      },
+      {
+        id: "gadget-rentals",
+        name: "Gadget Rentals",
+        count: 25,
+        description:
+          "Laptops, tablets, projectors, cameras, gaming consoles, and smart devices for short-term use.",
+      },
+      {
+        id: "stationery-academic",
+        name: "Stationery & Academic Supplies",
+        count: 30,
+        description:
+          "Calculators, drawing tablets, lab equipment, whiteboards, and textbooks on rent.",
+      },
     ],
     listings: [
       {
@@ -409,15 +439,40 @@ export const categoryData: Record<string, CategoryData> = {
     id: "digital-services",
     title: "Digital Services",
     description:
-      "Find freelance digital services from talented student creators for your projects.",
+      "Unlock student talent! Get top-notch freelance work for your projects.",
     icon: <Laptop className="h-10 w-10" />,
     color: "bg-emerald-100 text-emerald-700",
     subcategories: [
-      { id: "graphic-design", name: "Graphic Design", count: 28 },
-      { id: "web-development", name: "Web Development", count: 22 },
-      { id: "content-writing", name: "Content Writing", count: 18 },
-      { id: "video-editing", name: "Video Editing", count: 15 },
-      { id: "social-media", name: "Social Media Management", count: 12 },
+      {
+        id: "pixel-perfect",
+        name: "Pixel Perfect",
+        count: 28,
+        description: "Graphic design, logo creation, and branding.",
+      },
+      {
+        id: "career-boost",
+        name: "Career Boost",
+        count: 22,
+        description: "Resume writing, CV building, and LinkedIn optimization.",
+      },
+      {
+        id: "code-create",
+        name: "Code & Create",
+        count: 20,
+        description: "Coding, app development, and website design.",
+      },
+      {
+        id: "write-right",
+        name: "Write Right",
+        count: 18,
+        description: "Content writing, blog posts, and copywriting.",
+      },
+      {
+        id: "trendsetters",
+        name: "Trendsetters",
+        count: 15,
+        description: "Social media management & digital marketing.",
+      },
     ],
     listings: [
       {
