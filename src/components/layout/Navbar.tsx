@@ -57,7 +57,7 @@ const Navbar = ({
 
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-      <div className="container mx-auto flex h-16 items-center px-4">
+      <div className="container mx-auto flex h-20 items-center px-4">
         {/* Mobile Menu Button */}
         <button
           className="mr-2 rounded-md p-2 text-muted-foreground hover:bg-accent hover:text-accent-foreground md:hidden"
@@ -72,9 +72,9 @@ const Navbar = ({
           <img
             src="/tradehypelogo.png"
             alt="Trade Hive Logo"
-            className="h-10 w-10 rounded-full"
+            className="h-12 w-12 rounded-full"
           />
-          <span className="font-bold text-lg">HYBE</span>
+          <span className="font-bold text-xl">HYBE</span>
         </Link>
 
         {/* Desktop Navigation */}
