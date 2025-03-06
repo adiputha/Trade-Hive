@@ -50,7 +50,7 @@ const Navbar = ({
         {/* Logo */}
         <Link to="/" className="flex items-center gap-2">
           <img src="/tadehivelogo.jpg" alt="Trade Hive Logo" className="h-14 w-14" />
-          <span className="hidden text-xl font-bold md:block">TRADE HIVE</span>
+          <span className="hidden text-xl font-bold md:block">TRADE HYBE</span>
         </Link>
 
         {/* Desktop Navigation */}

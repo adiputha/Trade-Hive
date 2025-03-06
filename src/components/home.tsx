@@ -43,8 +43,8 @@ const HomePage = ({
       <main className="flex-1">
         {/* Hero Section */}
         <HeroBanner
-          title="Trade Hive: Student Marketplace"
-          subtitle="Discover, buy, and sell student services, products, and experiences all in one place."
+          title="Trade Hybe: Your Campus Marketplace"
+          subtitle="A one-stop platform where students can buy, sell, rent, and showcase their skills. From side hustles and digital services to event experiences and affordable rentals, we connect students with opportunities to earn, trade, and thrive."
           primaryCta={{
             text: "Explore Marketplace",
             onClick: handleExploreClick,
@@ -167,7 +167,7 @@ const HomePage = ({
                     className="h-12 w-12 rounded-full"
                   />
                   <div>
-                    <h4 className="font-semibold">Nethmi Dileka</h4>
+                    <h4 className="font-semibold">Wasanthi Fernando</h4>
                     <p className="text-sm text-gray-500">
                       Bussiness Analytics
                     </p>
