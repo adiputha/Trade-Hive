@@ -51,7 +51,7 @@ const CategoryGrid = ({
       color: "bg-amber-100 text-amber-700",
       href: "/categories/rentals",
       image:
-        "https://images.unsplash.com/photo-1581088382991-83c7f170de75?w=800&q=80",
+        "https://images.unsplash.com/photo-1518780664697-55e3ad937233?w=800&q=80",
     },
     {
       id: "digital-services",
