@@ -21,7 +21,7 @@ const Footer = ({ className }: FooterProps = {}) => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Logo and About */}
           <div className="space-y-4">
-            <h3 className="text-xl font-bold">Trade Hive</h3>
+            <h3 className="text-xl font-bold">Hybe</h3>
             <p className="text-sm text-gray-400">
               A marketplace platform where students can showcase, sell, and rent
               their services, products, and experiences.
@@ -112,7 +112,7 @@ const Footer = ({ className }: FooterProps = {}) => {
             <ul className="space-y-3 text-sm text-gray-400">
               <li className="flex items-center gap-2">
                 <Mail size={16} />
-                <span>support@tradehive.lk</span>
+                <span>support@hybe.lk</span>
               </li>
               <li className="flex items-center gap-2">
                 <Phone size={16} />
@@ -127,7 +127,7 @@ const Footer = ({ className }: FooterProps = {}) => {
         </div>
 
         <div className="mt-10 pt-6 border-t border-gray-800 text-center text-xs text-gray-500">
-          <p>© {new Date().getFullYear()} Trade Hive. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Hybe. All rights reserved.</p>
           <p className="mt-2">Made with ❤️ by students, for students.</p>
         </div>
       </div>

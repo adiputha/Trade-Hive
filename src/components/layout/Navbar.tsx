@@ -74,7 +74,7 @@ const Navbar = ({
             alt="Trade Hive Logo"
             className="h-8 w-8 rounded-full"
           />
-          <span className="hidden font-bold sm:inline-block">TRADE HYBE</span>
+          <span className="hidden font-bold sm:inline-block">HYBE</span>
         </Link>
 
         {/* Desktop Navigation */}

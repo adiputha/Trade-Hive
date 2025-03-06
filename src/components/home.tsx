@@ -43,7 +43,7 @@ const HomePage = ({
       <main className="flex-1">
         {/* Hero Section */}
         <HeroBanner
-          title="Trade Hybe: Your Campus Marketplace"
+          title="Hybe: Your Campus Marketplace"
           subtitle="A one-stop platform where students can buy, sell, rent, and showcase their skills. From side hustles and digital services to event experiences and affordable rentals, we connect students with opportunities to earn, trade, and thrive."
           primaryCta={{
             text: "Explore Marketplace",
