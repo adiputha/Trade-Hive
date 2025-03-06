@@ -72,9 +72,9 @@ const Navbar = ({
           <img
             src="/tradehypelogo.png"
             alt="Trade Hive Logo"
-            className="h-8 w-8 rounded-full"
+            className="h-10 w-10 rounded-full"
           />
-          <span className="hidden font-bold sm:inline-block">HYBE</span>
+          <span className="font-bold text-lg">HYBE</span>
         </Link>
 
         {/* Desktop Navigation */}
