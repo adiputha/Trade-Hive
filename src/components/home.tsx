@@ -65,7 +65,7 @@ const HomePage = ({
         <section className="w-full bg-white py-16">
           <div className="container mx-auto px-4 text-center">
             <h2 className="mb-6 text-3xl font-bold tracking-tight">
-              Join Our Student Marketplace
+              Join Our Campus Marketplace
             </h2>
             <p className="mx-auto mb-8 max-w-2xl text-gray-600">
               Whether you're looking to earn extra income, share your skills, or

@@ -70,11 +70,11 @@ const Navbar = ({
         {/* Logo */}
         <Link to="/" className="mr-6 flex items-center space-x-2">
           <img
-            src="/tadehivelogo.jpg"
+            src="/tradehypelogo.png"
             alt="Trade Hive Logo"
             className="h-8 w-8 rounded-full"
           />
-          <span className="hidden font-bold sm:inline-block">TRADE HIVE</span>
+          <span className="hidden font-bold sm:inline-block">TRADE HYBE</span>
         </Link>
 
         {/* Desktop Navigation */}
