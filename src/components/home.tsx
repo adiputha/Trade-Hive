@@ -69,7 +69,7 @@ const HomePage = ({
             </h2>
             <p className="mx-auto mb-8 max-w-2xl text-gray-600">
               Whether you're looking to earn extra income, share your skills, or
-              find affordable services, Trade Hive connects you with fellow
+              find affordable services, Hybe connects you with fellow
               students across campus.
             </p>
             <div className="flex flex-wrap justify-center gap-4">
@@ -133,7 +133,7 @@ const HomePage = ({
                 </div>
                 <p className="text-gray-600">
                   "I've been able to fund my semester abroad by offering logo
-                  design services on Trade Hive. The platform made it easy to
+                  design services on Hybe. The platform made it easy to
                   connect with students who needed design work!"
                 </p>
               </div>
@@ -154,7 +154,7 @@ const HomePage = ({
                   </div>
                 </div>
                 <p className="text-gray-600">
-                  "Renting camera equipment through Trade Hive saved me hundreds
+                  "Renting camera equipment through Hybe saved me hundreds
                   of dollars for my film project. The rental process was smooth
                   and the equipment was in great condition."
                 </p>
@@ -176,7 +176,7 @@ const HomePage = ({
                   </div>
                 </div>
                 <p className="text-gray-600">
-                  "I booked a campus tour experience through Trade Hive when my
+                  "I booked a campus tour experience through Hybe when my
                   family visited. Our guide was knowledgeable and showed us
                   hidden spots we would have never found on our own!"
                 </p>
